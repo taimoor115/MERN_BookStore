@@ -51,7 +51,7 @@ const Home = () => {
       ) : show === "table" ? (
         <TableShow data={data} />
       ) : (
-        <CardShow />
+        <CardShow data={data} />
       )}
     </div>
   );
