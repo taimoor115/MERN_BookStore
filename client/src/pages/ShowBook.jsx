@@ -70,7 +70,7 @@ const ShowBook = () => {
               {new Date(book.createdAt)
                 .toString()
                 .split(" ")
-                .slice(0, 4)
+                .slice(4)
                 .join(" ")}
             </span>
           </div>
@@ -83,7 +83,7 @@ const ShowBook = () => {
               {new Date(book.updatedAt)
                 .toString()
                 .split(" ")
-                .slice(0, 4)
+                .slice(4)
                 .join(" ")}
             </span>
           </div>
